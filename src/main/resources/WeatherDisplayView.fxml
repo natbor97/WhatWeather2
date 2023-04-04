@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane focusTraversable="true" mouseTransparent="true" pickOnBounds="false" prefHeight="829.0" prefWidth="590.0" style="-fx-background-color: #a8e3e7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" text="POGODA" textFill="#d01d1d" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Group fx:id="groupMyCityToday" layoutX="311.0" layoutY="55.0" AnchorPane.topAnchor="111.0">
+         <children>
+            <Label fx:id="purposeCityNameExtended" alignment="CENTER" contentDisplay="CENTER" layoutX="-5.0" layoutY="56.0" prefHeight="27.0" prefWidth="292.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="tempPurposeCityToday" layoutX="86.0" layoutY="91.0" prefHeight="27.0" prefWidth="200.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="pressurePurposeCityToday" layoutX="86.0" layoutY="115.0" prefHeight="27.0" prefWidth="200.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imagePurposeCityToday" fitHeight="76.0" fitWidth="54.0" layoutX="19.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Group>
+      <Group fx:id="groupPurposeCityToday" layoutX="-6.0" layoutY="56.0" AnchorPane.topAnchor="111.0">
+         <children>
+            <Label fx:id="myCityNameExtended" alignment="CENTER" contentDisplay="CENTER" layoutY="55.0" prefHeight="27.0" prefWidth="288.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="tempMyCityToday" layoutX="86.0" layoutY="91.0" prefHeight="27.0" prefWidth="200.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="pressureMyCityToday" layoutX="86.0" layoutY="115.0" prefHeight="27.0" prefWidth="200.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imageMyCityToday" fitHeight="76.0" fitWidth="54.0" layoutX="21.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Group>
+      <VBox fx:id="myCityForecastBox" layoutX="-6.0" layoutY="216.0" prefHeight="613.0" prefWidth="288.0" AnchorPane.topAnchor="216.0" />
+      <VBox fx:id="purposeCityForecastBox" layoutX="312.0" layoutY="216.0" prefHeight="613.0" prefWidth="288.0" AnchorPane.topAnchor="216.0" />
+      <Label fx:id="dateToday" alignment="CENTER" contentDisplay="CENTER" layoutY="57.0" prefHeight="27.0" prefWidth="627.0" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="57.0">
+         <font>
+            <Font name="Jokerman" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
