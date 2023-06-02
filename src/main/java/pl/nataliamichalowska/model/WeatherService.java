@@ -1,5 +1,6 @@
 package pl.nataliamichalowska.model;
 
+
 import java.io.IOException;
 
 public class WeatherService {
@@ -10,8 +11,6 @@ public class WeatherService {
     }
 
     public Weather getWeather(String cityName) throws IOException {
-
         return weatherClient.getWeather(cityName);
-
     }
 }

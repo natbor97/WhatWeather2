@@ -66,7 +66,7 @@ public class MainPageController extends BaseController implements Initializable 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        myCityText.setText("Kraków");
-        purposeCityText.setText("Rzym");
+        myCityText.setText("Syberia");
+        purposeCityText.setText("Madagaskar");
     }
 }
